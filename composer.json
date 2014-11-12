@@ -1,0 +1,28 @@
+{
+	"name": "yiitech/yii2-base",
+	"description": "Yii framework Base Classes.",
+	"keywords": ["yii2", "yiisoft", "yiitech", "base"],
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"support": {
+		"issues": "https://github.com/yiisoft/yii2/issues",
+		"forum": "http://www.yiiframework.com/forum/",
+		"wiki": "http://www.yiiframework.com/wiki/",
+		"irc": "irc://irc.freenode.net/yii",
+		"source": "https://github.com/yiisoft/yii2"
+	},
+	"authors": [
+		{
+			"name": "Qiang Xue",
+			"email": "qiang.xue@gmail.com"
+		}
+	],
+	"require": {
+                "php": ">=5.4.0",
+                "ext-mbstring": "*",
+                "lib-pcre": "*"
+	},
+        "autoload": {
+            "psr-4": { "yii\\base\\": "src" }
+        }
+}
